@@ -1,0 +1,17 @@
+header{
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+	border: 1px;
+	border-color: purple;
+	border-style: solid;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.container{
+	height: 100%;	
+}
