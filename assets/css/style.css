@@ -15,3 +15,7 @@ footer{
 .container{
 	height: 100%;	
 }
+
+#answer{
+	font-style: oblique;
+}
