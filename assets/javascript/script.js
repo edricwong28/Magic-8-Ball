@@ -1,11 +1,8 @@
-var answers = ['Yes','No','Maybe','Ask Again Later', 'Seems Unlikely','Did you really just wish for that?'];
+var answers = ['Absolutely','Yes','No','It is looking good','Maybe','Ask Again Later', 'Seems Unlikely','Slim chances','Did you really just wish for that?'];
 
 $('#askBtn').on('click', function(){
-	$('#answer').html(answers[Math.floor(Math.random()*answers.length)]);
+	let result = answers[Math.floor(Math.random()*answers.length)];
+	$('#answer').html(result);
 	console.log('button working');
-	console.log(answers[Math.floor(Math.random()*answers.length)]);
+	console.log(result);
 });
-
-// $('#alert').click(function(){
-// 	alert("working");
-// })
